@@ -1,3 +1,4 @@
+/*Javascript for search_character*/
 const charactersList = document.getElementById('charactersList');
 const searchBar = document.getElementById('searchBar');
 let hpCharacters = [];
@@ -38,5 +39,6 @@ const displayCharacters = (characters) => {
         .join('');
     charactersList.innerHTML = htmlString;
 };
-
 loadCharacters();
+
+/*film javascript*/
